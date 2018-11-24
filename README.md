@@ -7,4 +7,4 @@ JS / REACT NATIVE
 A mobile music app to discover new artists based on "similar artist" suggestions.
 
 Searchbar view :
-![searchbar view](https://i.imgur.com/z230MCE.jpg =500x)
+![searchbar view](https://i.imgur.com/z230MCE.jpg)
