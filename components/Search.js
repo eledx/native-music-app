@@ -28,10 +28,10 @@ export default class Search extends Component {
     return (
       <SafeAreaView style={{flex: 1 }}>
         <View style={{ flex: 1 }}>
-          <View style= {{ height: this.startHeaderHeight, backgroundColor: 'grey', borderBottomColor: '#dddddd' }}>
+          <View style= {{ height: this.startHeaderHeight, backgroundColor: '#4f3ad8', borderBottomColor: '#dddddd' }}>
             <View style={styles.inputContainer}>
-              <Icon name= "md-search" size={20} color='grey' style={{marginTop: 4}}/>
-              <TextInput underlineColorAndroid='transparent' spellCheck={false} autoCorrect={false} placeholder="Try 'Ty Segall'" placeholderTextColor="grey" 
+              <Icon name= "md-search" size={20} color='#b0b0b0' style={{marginTop: 4}}/>
+              <TextInput underlineColorAndroid='transparent' spellCheck={false} autoCorrect={false} placeholder="Try 'Ty Segall'" placeholderTextColor="#b0b0b0" 
               style={styles.input} 
               onChangeText= {(text) => this.autocompletion(text)} />
             </View>
